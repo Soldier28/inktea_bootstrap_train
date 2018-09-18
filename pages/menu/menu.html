@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>menu</title>
+    <!--引入bootstrap样式-->
+    <link rel="stylesheet" href="../../libs/bootstrap/bootstrap.min.css">
+</head>
+<body>
+<!--为方便理解已经去掉样式，此页菜单根据分辨率大小变化菜单按钮随之变化，手机和电脑将呈现不同效果-->
+    <!--导航区开始-->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container">
+            <!--响应低分辨率按钮开始-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--响应手机按钮结束-->
+            <!--MENU开始-->
+            <div class="collapse navbar-collapse justify-content-sm-end" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu1</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Menu2</a>
+                        <ul class="dropdown-menu">
+                            <a href="#"><li>dropdown-menu1</li></a>
+                            <a href="#"><li>dropdown-menu2</li></a>
+                            <a href="#"><li>dropdown-menu3</li></a>
+                            <a href="#"><li>dropdown-menu4</li></a>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Menu3</a>
+                        <ul class="dropdown-menu">
+                            <a href="#"><li>dropdown-menu1</li></a>
+                            <a href="#"><li>dropdown-menu2</li></a>
+                            <a href="#"><li>dropdown-menu3</li></a>
+                            <a href="#"><li>dropdown-menu4</li></a>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Menu4</a>
+                        <ul class="dropdown-menu">
+                            <a href="#"><li>dropdown-menu1</li></a>
+                            <a href="#"><li>dropdown-menu2</li></a>
+                            <a href="#"><li>dropdown-menu3</li></a>
+                            <a href="#"><li>dropdown-menu4</li></a>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <p class="nav-link language">
+                            <a href="#">中文版</a>
+                            <span>/</span>
+                            <a href="#">EN</a>
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+            <!--MENU结束-->
+        </div>
+    </nav>
+    <!--导航区结束-->
+
+    <!--引入bootstrap框架依赖jQuery.js-->
+    <script src="../../libs/jquery/jquery-3.2.1.min.js"></script>
+    <!--引入bootstrap.js-->
+    <script src="../../libs/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
