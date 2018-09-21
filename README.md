@@ -12,3 +12,6 @@ http://www.runoob.com/jquery/jquery-tutorial.html
 
 # DOM文档对象模型的操作教程：
 http://www.runoob.com/htmldom/htmldom-tutorial.html
+
+# API文档：
+http://www.css88.com/book/css/quicksearch.htm
