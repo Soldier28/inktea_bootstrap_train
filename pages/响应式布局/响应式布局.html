@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>menu</title>
+    <!--引入bootstrap样式-->
+    <link rel="stylesheet" href="../../libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!--主要排版开始-->
+<!--container的作用是将div按响应式左右留空铺满横屏-->
+<div class="container-fluid">
+    <!--row将父div分割成12等分-->
+    <div class="row">
+        <!--col-md-3将占用父div中屏的12分之3，md为中屏的分辨率，详细的看官方文档-->
+        <div class="col-md-3 red">
+            <p>第一个格45644645646546546546464654564646546545646545646546</p>
+        </div>
+        <!--offset-md-3为将div偏移12分之3个中屏-->
+        <div class="col-md-3 offset-md-3 red">
+            <div class="row">
+                <div class="col-3">1</div>
+                <div class="col-3">2</div>
+                <div class="col-3">3</div>
+                <div class="col-3">4</div>
+            </div>
+        </div>
+        <div class="col-md-3 red">
+            <p>第一个格45644645646546546546464654564646546545646545646546</p>
+        </div>
+        <!--居中-->
+        <div class="col-md-2 offset-md-5 red">第二行</div>
+    </div>
+</div>
+<!--container-fluid的作用是将div铺满整个横屏-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 red">
+            <p>第一个格45644645646546546546464654564646546545646545646546</p>
+        </div>
+        <div class="col-md-3 offset-md-3 red">
+            <div class="row">
+                <div class="col-3">1</div>
+                <div class="col-3">2</div>
+                <div class="col-3">3</div>
+                <div class="col-3">4</div>
+            </div>
+        </div>
+        <div class="col-md-3 red">
+            <p>第一个格45644645646546546546464654564646546545646545646546</p>
+        </div>
+        <!--居中-->
+        <div class="col-md-2 offset-md-5 red">第二行</div>
+    </div>
+</div>
+<!--主要排版结束-->
+
+<!--引入bootstrap框架依赖jQuery.js-->
+<script src="../../libs/jquery/jquery-3.2.1.min.js"></script>
+<!--引入bootstrap.js-->
+<script src="../../libs/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
