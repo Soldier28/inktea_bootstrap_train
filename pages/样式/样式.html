@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../libs/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="libs/wow/css/animate.min.css">
     <!--index样式表-->
+    <!--注意：自己的样式一定要放在最后面，防止样式被覆盖-->
     <!--公共样式-->
     <link rel="stylesheet" href="../../css/index.css">
     <!--分辨率小于768px样式-->
@@ -23,11 +24,15 @@
     <!--row将父div分割成12等分-->
     <div class="row">
         <!--col-md-3将占用父div中屏的12分之3，md为中屏的分辨率，详细的看官方文档-->
-        <div class="col-md-3 red">
-            <p>第一个格45644645646546546546464654564646546545646545646546</p>
+        <div class="col-md-3 first">
+            <p>第一个格</p>
+            <div>
+                sds
+                <p>ddd</p>
+            </div>
         </div>
         <!--offset-md-3为将div偏移12分之3个中屏-->
-        <div class="col-md-3 offset-md-3 red">
+        <div class="col-md-3 offset-md-3 second">
             <div class="row">
                 <div class="col-3">1</div>
                 <div class="col-3">2</div>
@@ -35,35 +40,13 @@
                 <div class="col-3">4</div>
             </div>
         </div>
-        <div class="col-md-3 red">
+        <div class="col-md-3 third">
             <p>第一个格45644645646546546546464654564646546545646545646546</p>
         </div>
         <!--居中-->
-        <div class="col-md-2 offset-md-5 red">第二行</div>
+        <div class="col-md-2 offset-md-5">第二行</div>
     </div>
 </div>
-<!--container-fluid的作用是将div铺满整个横屏-->
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-3 red">
-            <p>第一个格45644645646546546546464654564646546545646545646546</p>
-        </div>
-        <div class="col-md-3 offset-md-3 red">
-            <div class="row">
-                <div class="col-3">1</div>
-                <div class="col-3">2</div>
-                <div class="col-3">3</div>
-                <div class="col-3">4</div>
-            </div>
-        </div>
-        <div class="col-md-3 red">
-            <p>第一个格45644645646546546546464654564646546545646545646546</p>
-        </div>
-        <!--居中-->
-        <div class="col-md-2 offset-md-5 red">第二行</div>
-    </div>
-</div>
-<!--主要排版结束-->
 
 <!--引入bootstrap框架依赖jQuery.js-->
 <script src="../../libs/jquery/jquery-3.2.1.min.js"></script>
